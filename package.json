@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "prod": "SET NODE_ENV=production & node node_modules/webpack/bin/webpack.js -p",
-    "dev": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors"
+    "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --hot --progress --colors"
   },
   "keywords": [],
   "author": "",
