@@ -17,7 +17,7 @@ export default class OtherComponent extends React.Component {
   render() {
     return (
       <div>
-        <label>Count: {this.state.count}</label>
+        <label>Counter: {this.state.count}</label>
         <button onClick={this.increment}>Increment</button>
       </div>
     );

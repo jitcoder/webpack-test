@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import OtherComponent from 'components/other-component.jsx';
+import OtherComponent from 'components/other-component';
 
 import 'sass/hello.scss';
 
-const Greeting = () => <div>Hello World 4</div>;
+const Greeting = () => <div>Hello World 5</div>;
 
 const contents = (
   <div>
